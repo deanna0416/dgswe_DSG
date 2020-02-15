@@ -1,0 +1,12 @@
+grid_file = converge1.grd                                                                            ! grid file
+forcing_file = converge1.bfr                                                                         ! forcing file
+p = 3                                                                                                ! p - polynomial order
+ctp = 1                                                                                              ! ctp - parametric coordinate transformation order
+hbp = 1                                                                                              ! hbp - bathymetry order
+rk = 22                                                                                              ! RK timestepping scheme
+dt = .125d0                                                                                           ! dt - timestep (seconds)
+tf = .5d0                                                                                            ! tf - final time (days)
+dramp = .08d0                                                                                        ! dramp - ramping parameter (days)
+cf = .0025d0                                                                                         ! cf - friction coefficient
+sol_opt = 1                                                                                          ! sol_opt - solution output option
+sol_snap = 10d0                                                                                      ! sol_snap - solution output interval (total number of output times)
